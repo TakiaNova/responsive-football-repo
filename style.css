@@ -1,0 +1,282 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ /* ----------------------
+ top section 
+ ---------------------- */
+
+/* top-content dividing two parts through flex  */
+  .top-section{
+      background-color: #2D25A0;
+      width: 1440px;
+      height: 677px;
+      display: flex;
+      padding-bottom: 100px;
+  }
+  .half{
+      width: 50%;
+      padding-left: 2%;
+  }
+  .half img{
+      width: 80%;
+      padding-top: 7%;
+  }
+  /* icon setting  */
+  #watch-live{
+      text-decoration:none;
+      font-size: 16px;
+      background-color: #E02C6D;
+      padding: 10px 24px;
+      color: white;
+      border-radius: 5px;
+      margin-left: 143px;
+  }
+/* top-heading setting  */
+h1{
+width: 487px;
+height: 320px;
+font-size: 64px;
+color: #FFFFFF;
+padding-top: 150px;
+padding-left: 143px;
+}
+/* transition-image-padding  */
+#padding-setting{
+    padding-top: 150px;
+    padding-right: 169px;
+}
+/* image-transition-style  */
+.transition{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+}
+.topimg{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+img.hover-img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+.transition:hover img.topimg{
+opacity: 0;
+}
+.transition:hover img.hover-img{
+    opacity: 1;
+}
+/* end-image-transition style ! */
+
+ /*----------------------
+  players and blogs 
+ ---------------------- */
+
+ /* second section structure setting  */
+.mainplayers{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.players{
+    padding: 15px;
+    width: 310px;
+    height: 474px;
+    margin: 30px;
+    box-shadow: 0px 0px 40px rgb(201, 200, 200);
+    padding-top: 15px;
+    padding-bottom: 33px;
+    background: #FFFFFF; 
+}
+.player img{
+    width: 300px;
+    height: 256px; 
+}
+.playercontent{
+    width: 300px;
+    height: 154px;
+}
+.playercontent p{
+    font-size: 16px;
+    color: grey;
+}
+h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+ /* end of secnd section  */
+/* ---------------
+sign in section
+----------------------  */
+
+/* using background of Copa-America  */
+.bgsector{
+    background-image: url(https://st3.depositphotos.com/6396642/33984/v/380/depositphotos_339849036-stock-illustration-conmebol-copa-america-argentina-2020.jpg);
+    background-repeat: repeat;
+ padding: 50px;
+}
+/* sign-in sector  */
+.form-container {
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+    padding-right: 100px;
+
+}
+h2{
+    color: #FFFFFF;
+}
+.form-login input,
+button {
+    font-size: 1.3em;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#sign-padding{
+    padding-top: 40%;
+}
+.form-login button {
+    background-color: #10437A;
+    color: white;
+    font-weight: 700;    padding: 5px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+/* end of sign-in sector  */
+
+
+/* <!-- flex all content  --> */
+.extra-sactor-flex{
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 0px 0px 20px rgb(201, 200, 200);
+    border-radius: 50px;
+    background-color: aliceblue;
+    padding-right: 70%;
+    padding-left: 70%;
+    margin-top: 5%;
+}
+/* goal-finalize some  */
+.goal-finalize{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: brown;
+}
+/* flags-results summary in flex  */
+.flag-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+.extra-finishing{
+    justify-content:center;
+    align-items:center
+}
+/* col flag name setting  */
+#pedding-colimg{
+    height: 10%;
+    padding-right:60px ;
+}
+#pedding-col{
+    padding-right:50px ;
+    padding-left: 30px;
+}
+/* per flag name setting  */
+#pedding-perimg{
+    height: 10%;
+    padding-right:60px ;
+}
+#pedding-per{
+    padding-right:50px ;
+    padding-left: 30px;
+}
+/* date time padding right  */
+#padding-date{
+    padding-right: 90px;
+}
+/* name padding right  */
+#padding-name{
+    padding-right: 20px;
+}
+/* 3rd place final- center this heading  */
+#h3-center{
+    width: 487px;
+font-size: 54px;
+text-align: center;
+color: #FFFFFF;
+padding-left: 250px;
+padding-top: 0%;
+}
+/* ----------------
+footer section  
+ ---------------- */
+
+ /* footer section setting  */
+footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 470px;
+width: 483.87px;
+height: 213px;
+padding-top: 100px;
+padding-bottom: 114px;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+    padding-bottom: 20px;
+}
+/* flex & setting social icon  */
+.social-icon{
+    display: flex;
+}
+.social-icon img{
+    height: 32px;
+    width: 32px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+}
+/* end-footer-section  */
+
+/* mobile device  */
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .half, .mainplayers, .formdiv,.social-icon{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half, .players, .flag-content{
+        flex-direction: column;
+    }
+    }
+    /* tablet devices */
+    @media only screen and (min-width: 688px) and (max-width: 992px){
+        .container{
+            width: 100%;
+        }
+        .half, .mainplayers, .formdiv,.social-icon{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .players, .flag-content{
+            flex-direction: column;
+        }
+        }
+/* -----------------------------------------THE END------------------------------------  */
